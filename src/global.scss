@@ -1,0 +1,33 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+@import '~@ionic/angular/css/display.css';
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+
+img.avatar {
+    width: 48px;
+    height: 60px;
+    float: left;
+}
+
+h3.name-user {
+    float: right;
+    padding-right: 54%;
+    margin-top: -7%;
+}
+
+ion-avatar.md.hydrated {
+    width: 48px;
+    height: 60px;
+}
+
+.sc-ion-card-ios-s img {
+    padding-top: 5%;
+}
